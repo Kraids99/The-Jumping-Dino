@@ -1,6 +1,6 @@
 const max = 20;
 let ground = Array(max).fill("_");
-let dino = 10;
+let dino = 7;
 
 let jumping = 0;
 let jumpTimer = 0;
