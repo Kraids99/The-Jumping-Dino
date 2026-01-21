@@ -1,6 +1,6 @@
 const max = 20;
 let ground = Array(max).fill("_");
-let dino = 13;
+let dino = 10;
 
 let jumping = 0;
 let jumpTimer = 0;
@@ -56,7 +56,7 @@ function render() {
             // title
             document.title = "GAME OVER 💥";
             // address bar
-            // location.hash = "GAME-OVER-💥";
+            location.hash = "GAME-OVER-💥";
 
             setTimeout(() => {
                 document.title = "SCORE: " + score;
@@ -65,7 +65,7 @@ function render() {
         }
     } else {
         document.title = ground.join("");
-        // location.hash = ground.join("");
+        location.hash = ground.join("");
     }
 }
 
