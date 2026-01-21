@@ -56,16 +56,16 @@ function render() {
             // title
             document.title = "GAME OVER 💥";
             // address bar
-            location.hash = "GAME-OVER-💥";
+            // location.hash = "GAME-OVER-💥";
 
             setTimeout(() => {
                 document.title = "SCORE: " + score;
-                location.hash = "SCORE:" + score;
+                // location.hash = "SCORE:" + score;
             }, 1500);
         }
     } else {
         document.title = ground.join("");
-        location.hash = ground.join("");
+        // location.hash = ground.join("");
     }
 }
 
